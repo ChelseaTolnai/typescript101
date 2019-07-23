@@ -36,12 +36,9 @@ class Rectanglur implements FourSided { // Rectanglar shapes are four sided
     perimeter = () => (this.length * 2) + (this.height * 2) // "perimeter" function returns a number equal to a rectangle's perimeter given length and height
 }
 
-class Square extends Rectanglur {
-}
+class Square extends Rectanglur {}
 
-class Rectangle extends Rectanglur {
-}
-
+class Rectangle extends Rectanglur {}
 
 
 let circle = new Circle(1); // initiate a new Circle with a radius of 2
