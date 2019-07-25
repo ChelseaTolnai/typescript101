@@ -8,3 +8,6 @@ addToString("2");
 addToString(3);
 addToString(["hi"]);
 console.log(string);
+var arr = ["hello"];
+arr.push(4);
+console.log(arr);
