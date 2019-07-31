@@ -41,14 +41,14 @@ class Square extends Rectanglur {}
 class Rectangle extends Rectanglur {}
 
 
-let circle = new Circle(1); // initiate a new Circle with a radius of 2
+let circle: Circle = new Circle(1); // initiate a new Circle with a radius of 2
 console.log(circle.area()); // call "area" to return that circle's area (pi * 1)
 console.log(circle.perimeter()); // call "perimeter" to return same (2 * pi * 1)
 
-let square = new Square(3); // initiate a new Square with a side length of 3
+let square: Square = new Square(3); // initiate a new Square with a side length of 3
 console.log(square.area()); // call "area" to return that square's area
 console.log(square.perimeter()); // call "perimeter" to return same 
 
-let rectangle = new Rectangle(2, 3); // initiate a new Rectangle with a length of 2 and height of 3
+let rectangle: Rectangle = new Rectangle(2, 3); // initiate a new Rectangle with a length of 2 and height of 3
 console.log(rectangle.area()); // call "area" to return that rectangle's area
 console.log(rectangle.perimeter()); // call "perimeter" to return same

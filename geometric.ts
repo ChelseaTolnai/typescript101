@@ -25,10 +25,10 @@ export class Circle implements IGeometricFigure {
     perimeter = () => 2 * Math.PI * this.radius; // "perimeter" function returns a number equal to a circles's perimeter given length of radius
 }
 
-let square = new Square(3); // initiate a new Square with a side length of 3
+let square: Square = new Square(3); // initiate a new Square with a side length of 3
 console.log(square.area()); // call "area" to return that square's area (3*3)
 console.log(square.perimeter()); // call "perimeter" to return same (3*4)
 
-let circle = new Circle(3); // initiate a new Circle with a radius of 2
+let circle: Circle = new Circle(3); // initiate a new Circle with a radius of 2
 console.log(circle.area()); // call "area" to return that circle's area (pi * 3^2)
 console.log(circle.perimeter()); // call "perimeter" to return same (2 * pi * 3)

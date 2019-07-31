@@ -12,5 +12,4 @@ addToString(["hi"])
 console.log(string)
 
 let arr:string[] = ["hello"];
-arr.push(4);
 console.log(arr);
